@@ -4,6 +4,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <body>
+         <nav id="navbar">
+            <div className="nav-buttons">
+                <a className="anmelden" href="C:\Users\xmatz\OneDrive\Dokumente\GitHub\web-development\html_css\eigenes finstergramm\login.html"> anmelden </a>
+                <a className="registrieren" href="C:\Users\xmatz\OneDrive\Dokumente\GitHub\web-development\html_css\eigenes finstergramm\sign_up.html"> registrieren </a>
+            </div>
+        </nav>
+      </body>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +26,7 @@ function App() {
           Learn React
         </a>
       </header>
+      
     </div>
   );
 }
