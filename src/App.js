@@ -3,7 +3,7 @@ import './App.css';
 import NavigationBar from './components/layout/navbar/Navigationbar';
 import Content from './components/layout/content';
 import Footer from './components/layout/footer';
-
+import { FaBeer } from "react-icons/fa";
 
 function App() {
   return (
