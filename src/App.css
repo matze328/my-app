@@ -1,15 +1,1 @@
 
-
-#navbar {
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  background-color: #28e222;
-  position: sticky;
-  border-bottom: medium dashed #ef4a25;
-}
-.nav-buttons {
-  display: flex;
-  align-items: center;
-}
