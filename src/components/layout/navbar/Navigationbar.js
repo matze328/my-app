@@ -1,6 +1,6 @@
 import styles from "./NavigationBar.module.css";
 import NavBarLeft from "./Navbar-left/NavBarLeft";
-import NavBarRight from "./navbar-right";
+import NavBarRight from "./navbar-right/NavBarRight";
 
 function NavigationBar() {
   return (
