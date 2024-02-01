@@ -3,7 +3,7 @@ import userImg from "./profilbild.avif"
 function NavBarLeft() {
   return (
     <div className={styles.mainContainer}>
-      <img className={styles.logImg} src={userImg} />
+      <img className={styles.logImg} src={userImg} id={1} />
     </div>
   );
 }
