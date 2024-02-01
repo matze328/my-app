@@ -1,19 +1,25 @@
 import styles from "./content.module.css";
+import bild01 from "./images/always-sunny-header.jpg"
+import bild02 from "./images/its-always-sunny-in-philadelphia-good-morning-philadelphia.gif"
+import bild03 from "./images/03.gif"
+import bild04 from "./images/always-sunny-10.jpg"
+import bild05 from "./images/its-alway-sunny-charlie.avif"
+import bild06 from "./images/02.webp"
+
+
 
 function Content() {
-  return (
-    <div className={styles.mainContainer}>
-      <div className={styles.navbar}></div>
-        <div className="profil-bio">
-                    <h5>The series follows the exploits of "The Gang",
-                             a group of narcissistic and sociopathic friends
-                             who run the Irish dive bar Paddy's Pub in South Philadelphia.</h5>
-                    <h5> Pennsylvania, but spend most of their free time drinking, scheming,
-                            arguing amongst themselves, and plotting elaborate cons against others.</h5>
-                    <h5>and at times each other, for personal benefit, financial gain,
-                            revenge, or simply due to boredom or inebriation</h5>
-                    </div>
-                    </div>
+    return ( <div className={styles.mainContainer}>
+                 <div className={styles.navbar}>
+                  <img className={styles.logImg} src={bild01} id={2} /> 
+                  <img className={styles.logImg} src={bild02} id={3} />
+                  <img className={styles.logImg} src={bild03} id={4} /> 
+                  <img className={styles.logImg} src={bild05} id={5} /> 
+                 <img className={styles.logImg} src={bild06} id={6} />
+                 <img className={styles.logImg} src={bild04} id={7} /> 
+               </div>
+
+          </div>
   );
 }
 
