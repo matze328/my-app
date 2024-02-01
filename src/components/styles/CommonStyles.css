@@ -1,0 +1,5 @@
+.border-bottom-shadow {
+    -webkit-box-shadow: 0 4px 6px -6px var(--border-color);
+    -moz-box-shadow: 0 4px 6px -6px var(--border-color);
+    box-shadow: 0 4px 6px -6px var(--border-color);
+  }
