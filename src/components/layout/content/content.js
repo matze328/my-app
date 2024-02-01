@@ -4,7 +4,7 @@ function Content() {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.navbar}></div>
-    <div className="profil-bio">
+        <div className="profil-bio">
                     <h5>The series follows the exploits of "The Gang",
                              a group of narcissistic and sociopathic friends
                              who run the Irish dive bar Paddy's Pub in South Philadelphia.</h5>

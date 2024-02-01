@@ -1,9 +1,9 @@
 import styles from "./NavBarLeft.module.css";
-
+import userImg from "./profilbild.avif"
 function NavBarLeft() {
   return (
     <div className={styles.mainContainer}>
-      <img className={styles.logImg} src={"C:\Users\xmatz\my-app\public\profilbild.avif}" alt="logo" />
+      <img className={styles.logImg} src={userImg} />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import StandardBtn from "../../../common/buttons/standard-btn";
+import StandardBtn from "../../../common/buttons/Standard-btn/StandardBtn";
 import styles from "./NavBarRight.module.css";
 
 function NavBarRight() {

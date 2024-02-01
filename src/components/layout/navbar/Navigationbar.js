@@ -1,4 +1,4 @@
-import styles from "./NavigationBar.module.css";
+import styles from "./Navigationsbar.module.css";
 import NavBarLeft from "./Navbar-left/NavBarLeft";
 import NavBarRight from "./navbar-right/NavBarRight";
 

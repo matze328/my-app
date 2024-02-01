@@ -1,14 +1,23 @@
-#navbar {
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #28e222;
-    position: sticky;
-    border-bottom: medium dashed #ef4a25;
+.mainContainer {
+  padding: 4px;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer {
+  flex: 1;
+  display: none;
+}
+@media screen and (min-width: 320px) {
+  .mainContainer {
+    padding: 8px;
+    height: 52px;
+    flex-direction: row;
   }
-  .nav-buttons {
-    display: flex;
-    align-items: center;
+  .spacer {
+    display: block;
   }
-  
+}
