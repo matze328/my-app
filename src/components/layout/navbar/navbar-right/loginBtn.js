@@ -1,6 +1,5 @@
 import { useState } from "react";
-import styles from "../../../common/buttons/Standard-btn/StandardBtn.module.css"
-
+import styles from "./NavBarRight.module.css"
 function LoginBtn() {
     const [isLogout, setIsLogout] = useState(false);
   

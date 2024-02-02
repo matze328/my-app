@@ -5,7 +5,7 @@ import LoginBtn from "./loginBtn";
 function NavBarRight() {
   return (
     <div className={styles.mainContainer}>
-      <LoginBtn  />
+      <LoginBtn />
       <div className={styles.spacer} />
       <StandardBtn text={"Sign Up"} />
     </div>
