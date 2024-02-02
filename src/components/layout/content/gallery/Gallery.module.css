@@ -1,0 +1,8 @@
+.mainContainer {
+    background-color: green;
+  }
+  
+  .galleryimg {
+    min-width: 100px;
+    aspect-ratio: 1;
+  }
