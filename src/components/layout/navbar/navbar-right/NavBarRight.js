@@ -1,10 +1,11 @@
 import StandardBtn from "../../../common/buttons/Standard-btn/StandardBtn";
 import styles from "./NavBarRight.module.css";
+import LoginBtn from "./loginBtn";
 
 function NavBarRight() {
   return (
     <div className={styles.mainContainer}>
-      <StandardBtn text={"Login"} />
+      <LoginBtn  />
       <div className={styles.spacer} />
       <StandardBtn text={"Sign Up"} />
     </div>
