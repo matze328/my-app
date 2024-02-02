@@ -1,5 +1,5 @@
 import styles from "./Profile.module.css";
-import Info from "./info/Info";
+import Info from "./info";
 
 function Profile({ userProfile }) {
   return (
