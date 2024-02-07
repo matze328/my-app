@@ -12,11 +12,9 @@ function App() {
   useEffect(function () {
     setTimeout(() => {
       const response = DatabaseResponse;
-
       setData(response);
     }, 1000);
   }, []);
-
   if (!data) return <div>Loading... </div>;
   return (
     <div className="App">

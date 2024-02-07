@@ -6,7 +6,7 @@ function NavBarRight() {
     <div className={styles.mainContainer}>
       <LoginBtn className={styles.spacer} />
       <div>
-      <a href="">
+      <a href="C:\Users\xmatz\my-app\src\components\layout\navbar\navbar-right\sign_up.html">
         <StandardBtn text={"Sign up"} />
       </a>
     </div>
