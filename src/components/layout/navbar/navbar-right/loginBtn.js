@@ -13,14 +13,14 @@ function LoginBtn() {
   
     if (isLogout) {
       return (
-        <button style={{ backgroundColor: "grey" }} onClick={onClickLogout}>
+        <button className={styles.myBtn} onClick={onClickLogout}>
           Logout
         </button>
       );
     }
   
     return (
-      <button style={{ backgroundColor: "green" }} onClick={onClickLogin}>
+      <button className={styles.myBtn} onClick={onClickLogin}>
         Login
       </button>
     );

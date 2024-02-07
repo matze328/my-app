@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(17, 13, 13);
+    background-color: rgb(188, 54, 54);
     justify-content: center;
     margin: auto;
     
@@ -9,7 +9,7 @@
 }
   
 .mainContainer {
-    background-color: rgb(6, 26, 6);
+    background-color: rgb(249, 249, 249);
     padding: 16px;
     width: auto;
     display: flex;

@@ -31,3 +31,13 @@
       background-color: var(--primary-color);
     }
   }
+  .m {
+    padding: 4px 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    &:hover {
+      background-color: var(--primary-color);
+    }
+  }

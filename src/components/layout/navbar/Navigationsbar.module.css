@@ -24,7 +24,7 @@
 .myBtn {
   padding: 4px 8px;
   border-radius: 8px;
-  color: white;
+  color: rgb(92, 66, 66);
   background-color: var(--secondary-color);
   cursor: pointer;
   &:hover {

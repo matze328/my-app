@@ -6,9 +6,9 @@ function NavigationBar() {
   return (
     <div className={`${styles.mainContainer} border-bottom-shadow`}>
       <NavBarLeft />
-      <div className={styles.spacer} />
+      <div className={`${styles.spacer} border-bottom-shadow`}/>
       <NavBarRight />
-    </div>
+    </div> 
   );
 }
 

@@ -11,12 +11,12 @@ import FollowBtn from "./profile/follow-btn/FollowBtn";
 function Content() {
     return ( <div className={styles.mainContainer}>
                  <div className={styles.navbar}>
-                  <img className={styles.logImg} src={bild01} id={2} /> 
-                  <img className={styles.logImg} src={bild02} id={3} />
-                  <img className={styles.logImg} src={bild03} id={4} /> 
-                  <img className={styles.logImg} src={bild05} id={5} /> 
-                 <img className={styles.logImg} src={bild06} id={6} />
-                 <img className={styles.logImg} src={bild04} id={7} /> 
+                  <img className={styles.logImg} src={bild01} id={2}/> 
+                  <img className={styles.logImg} src={bild02} id={3}/>
+                  <img className={styles.logImg} src={bild03} id={4}/> 
+                  <img className={styles.logImg} src={bild05} id={5}/> 
+                 <img className={styles.logImg} src={bild06} id={6}/>
+                 <img className={styles.logImg} src={bild04} id={7}/> 
                </div>
                <FollowBtn />
           </div>
