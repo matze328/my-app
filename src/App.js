@@ -1,7 +1,6 @@
 import "./components/styles/App.css";
 import "../src/components/styles/Variables.css";
 import "../src/components/styles/CommonStyles.css";
-import NavigationBar from "./components/layout/navbar/Navigationbar";
 import Content from "./components/layout/content";
 import Footer from "./components/layout/footer";
 import { useEffect, useState } from "react";

@@ -1,18 +1,16 @@
 import StandardBtn from "../../../common/buttons/Standard-btn/StandardBtn";
 import styles from "./NavBarRight.module.css";
 import LoginBtn from "./loginBtn";
+import { BrowserRouter, Router, Route, Link, NavLink } from "react-router-dom";
+
 function NavBarRight() {
   return (
     <div className={styles.mainContainer}>
       <LoginBtn className={styles.spacer} />
-      <div>
-      <a href="C:\Users\xmatz\my-app\src\components\layout\navbar\navbar-right\sign_up.html">
-        <StandardBtn text={"Sign up"} />
-      </a>
+      <StandardBtn onClickClick={"http://localhost:3000/SignUp"} text={"Sign up"} />
     </div>
-      {/* <div className={styles.spacer}/> */}
-       {/* <StandardBtn text={"Sign Up"}  /> */}
-    </div> 
+    /* <div className={styles.spacer}/> */
+    /* <StandardBtn text={"Sign Up"}  /> */
   );
 }
 
