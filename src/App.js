@@ -12,7 +12,7 @@ function App() {
     setTimeout(() => {
       const response = DatabaseResponse;
       setData(response);
-    }, 1000);
+    }, 3000);
   }, []);
   if (!data) return <div>Loading... </div>;
   return (
