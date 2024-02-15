@@ -15,8 +15,8 @@ root.render(
     <NavigationBar />
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/" element={<Impressum />} />
-      <Route path="/" element={<SignUp />} />
+      <Route path="/Impressum" element={<Impressum />} />
+      <Route path="/SignUp" element={<SignUp />} />
     </Routes>
     
     </BrowserRouter>
