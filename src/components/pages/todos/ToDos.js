@@ -1,4 +1,5 @@
 import { TodosQueries } from "../../../api/v1/todos";
+import { TodosMutations } from "../../../api/v1/todos";
 import ToDoItem from "../../common/templates/todo-item";
 import styles from "./ToDos.module.css";
 import { useState, useEffect } from "react";
@@ -22,7 +23,54 @@ function ToDoPage() {
       console.log("Hello world", e);
     }
   }
+  async function updateTodo() {
+    try {
+      console.log("Hello world 1 von updateTodo");
 
+      const jsonResponse = await TodosMutations.updateTodo();
+      console.log("MY JSON RESPONSE", jsonResponse);
+
+      setTodos(jsonResponse);
+    } catch (e) {
+      console.log("Hello world", e);
+    }
+  }
+  async function deleteTodo() {
+    try {
+      console.log("Hello world 1 von deleteTodo");
+
+      const jsonResponse = await TodosMutations.deleteTodo();
+      console.log("MY JSON RESPONSE", jsonResponse);
+
+      setTodos(jsonResponse);
+    } catch (e) {
+      console.log("Hello world", e);
+    }
+  }
+  async function createTodo() {
+    try {
+      console.log("Hello world 1 von deleteTodo");
+
+      const jsonResponse = await TodosMutations.createTodo();
+      console.log("MY JSON RESPONSE", jsonResponse);
+
+      setTodos(jsonResponse);
+    } catch (e) {
+      console.log("Hello world", e);
+    }
+  }
+  async function markTodo() {
+    try {
+      console.log("Hello world 1 von deleteTodo");
+
+      const jsonResponse = await TodosMutations.markTodo();
+      console.log("MY JSON RESPONSE", jsonResponse);
+
+      setTodos(jsonResponse);
+    } catch (e) {
+      console.log("Hello world", e);
+    }
+  }
   // Alternative Funktion für den API Aufruf
   // Achtung: Wird nicht verwendet
   function alternativeFetchTodos() {
@@ -43,6 +91,10 @@ function ToDoPage() {
   // useEffect
   useEffect(() => {
     fetchTodos();
+    updateTodo();
+    deleteTodo();
+    markTodo();
+    createTodo();
   }, []);
 
   //###Ergänzung zum Code vom Unterricht:###
