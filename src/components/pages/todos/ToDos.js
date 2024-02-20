@@ -9,6 +9,15 @@ function ToDoPage() {
   //Antwort ist da? => lad die Komponente einmal mit Daten gefüllt neu
   const [todos, setTodos] = useState([]);
 
+// // async function fetchTodos() {
+// //   console.log("hello world2 von fetchTodos");
+// //   const response = await fetch('http://localhost:3030/v1/todos/alltodos');
+// //   const jsonResponse = await response.json();
+
+// //   setTodos(jsonResponse)
+// }
+
+
   //useEffekt hier: damit wir den folgenden Code nur einmal ausführen,
   //obwohl wir mit setTodos den State von todos ändern
   useEffect(() => {
