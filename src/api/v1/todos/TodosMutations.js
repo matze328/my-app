@@ -9,5 +9,13 @@ async function createTodo(newTodo) {
 
   return todos;
 }
-
-export default { createTodo };
+async function updateTodo(updateTodo) {
+    const result = api.put("/todos/update", {
+      updateTodo: updateTodo,
+    });
+  
+    const todos = result.data;
+  
+    return todos;
+}
+export default { createTodo, updateTodo };
