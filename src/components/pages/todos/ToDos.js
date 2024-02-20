@@ -1,4 +1,4 @@
-import { TodosQueries } from "../../api/v1/todos";
+import { TodosQueries } from "../../../api/v1/todos";
 import ToDoItem from "../../common/templates/todo-item";
 import styles from "./ToDos.module.css";
 import { useState, useEffect } from "react";
