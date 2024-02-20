@@ -18,4 +18,11 @@ async function updateTodo(updateTodo) {
   
     return todo;
 }
-export default { createTodo, updateTodo };
+async function markTodo(todoId) {
+    const result = await api.put("/todos/mark", { params: { todoId } });
+  
+    const todo = result.data.todo;
+  
+    return todo;
+}
+export default { createTodo, updateTodo, markTodo };
