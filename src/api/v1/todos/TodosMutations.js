@@ -14,8 +14,8 @@ async function updateTodo(updateTodo) {
       updateTodo: updateTodo,
     });
   
-    const todos = result.data;
+    const todo = result.data;
   
-    return todos;
+    return todo;
 }
 export default { createTodo, updateTodo };
