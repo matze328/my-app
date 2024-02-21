@@ -1,7 +1,7 @@
 import api from "../../config/api";
 
 async function fetchAllTodos() {
-  const result = await api.get("/todos/all");
+  const result = await api.get("/todos/alltodos");
 
   const todos = result.data;
 
@@ -15,5 +15,11 @@ async function fetchTodoById(todoId) {
 
   return todo;
 }
+async function fetchTodoByUserId(userId) {
+  const result = await api.get("/todos/byuserid", { params: { userId } });
 
-export default { fetchAllTodos, fetchTodoById };
+  const todo = result.data.todo;
+
+  return todo;
+}
+export default { fetchAllTodos, fetchTodoById,fetchTodoByUserId };

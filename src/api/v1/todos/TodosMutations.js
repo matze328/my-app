@@ -18,8 +18,8 @@ async function updateTodo(updateTodo) {
   
     return todo;
 }
-async function markTodo(todoId) {
-    const result = await api.put("/todos/mark", { params: { todoId } });
+async function markTodo(id, isDone) {
+    const result = await api.put("/todos/mark", {id, isDone });
   
     const todo = result.data.todo;
   
